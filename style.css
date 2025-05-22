@@ -76,9 +76,26 @@ text-align: center; }
   100% {transform:translateX(-15px);}
 }
 
-footer{background-color: #04578860; padding:10px 0; text-align:center;border-top:3px solid#e0e0e0;}
-h2{margin: 25px 0;color:#333;font-size:20px;}
-.footer-cont a {text-decoration:none;}
+footer {
+    background-color: #0f457886;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 3px solid #e0e0e0;   }
+
+  h2 {
+   margin: 25px 0;
+    color: #333;
+    font-size: 20px;
+  }
+ 
+  .footer-cont a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+ 
+  .footer-cont a:hover {
+    text-decoration: underline;
+  }
 
 
 
